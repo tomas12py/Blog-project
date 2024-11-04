@@ -3,7 +3,7 @@ import { useState } from 'react'
 import '../styles/app.css'
 
 
-export const Navbar = ({routes = []}) => {
+export const Navbar = ({routes = ["Login"]}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (

@@ -1,11 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { Navbar } from './components/Navbar'
+import { BrowserRouter } from 'react-router-dom'
 
+import { App } from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Navbar
-    routes={["Login"]}
-    />
+    <BrowserRouter>
+    <App></App>
+    </BrowserRouter>
   </StrictMode>
 )
