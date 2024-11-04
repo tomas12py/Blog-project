@@ -1,6 +1,6 @@
-import logo from '../assets/logo.png'
+import logo from '../../assets/logo.png'
 import { useState } from 'react'
-import '../styles/app.css'
+import '../../styles/app.css'
 
 
 export const Navbar = ({routes = ["Login"]}) => {
