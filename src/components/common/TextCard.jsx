@@ -1,23 +1,18 @@
 import '../../styles/app.css'
+import { FaCompass } from "react-icons/fa";
 
-
-export const TextCard = ({background = ""}) => {
+export const TextCard = ({background = "",title = "",text = ""}) => {
   return (
    <>
       <div className="card" style={{background}}>
         <div className="card__icon">
-          <i className="fas fa-bolt" />
+            <FaCompass/>
         </div>
-        <p className="card__exit">
-          <i className="fas fa-times" />
-        </p>
         <h2 className="card__title">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          {title}
         </h2>
         <p className="card__apply">
-          <a className="card__link" href="#">
-            Apply Now <i className="fas fa-arrow-right" />
-          </a>
+           {text}
         </p>
       </div>
 </>

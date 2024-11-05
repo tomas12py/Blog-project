@@ -128,7 +128,7 @@ body {
   transform: scale(1.01);
 }
 
-.card__link,
+
 .card__exit,
 .card__icon {
   position: relative;
@@ -170,6 +170,7 @@ body {
 .card__apply {
   grid-row: 4/5;
   align-self: center;
+  color: rgba(255, 255, 255, 0.9)
 }
 
 
@@ -178,6 +179,19 @@ body {
   .cards {
     justify-content: center;
   }
+}
+
+@media (max-width: 768px) 
+{ 
+  .card__title { font-size: 1em; } 
+  .card__apply { font-size: 0.9em; } 
+} 
+
+@media (max-width: 480px) 
+{ 
+  .card__title { font-size: 0.8em; } 
+  .card__apply { font-size: 0.6em; margin-bottom: 2.5rem; } 
+
 }
 
 .gradient-title { 

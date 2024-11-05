@@ -15,10 +15,20 @@ export const LandingPage = () => {
   <div className="main-container">
     <div className="cards">
      <TextCard
-     background='radial-gradient(#1fe4f5, #3fbafe)'
+     background='linear-gradient(to right top, #24b9c7, #00afea, #009eff, #517fff, #c241ec)'
+     title='Quienes somos?'
+     text='Somos una pagina web que esta orientada a la busqueda de viajes y a la proporcion de recursos para 
+     que tengas la capacidad de crear el viaje que quieras, podras compartir tus experiencias para otros y conocer
+     nuevas experiencia para ti.
+     ' 
      />
      <TextCard
-     background='radial-gradient(#1fe4f5, #3fbafe)'
+     background='linear-gradient(to right top, #24b9c7, #00afea, #009eff, #517fff, #c241ec)'
+     title = "Que puedes hacer en esta plataforma?"
+     text='Tendras la capacidad de plasmar tus viajes de la forma que lo prefieras, tienes total control
+     sobre como deseas gestionar esto, tambien puedes ver los viajes de otros usuarios asi puedes disfrutar del
+     increible mundo del viaje desde distintas perspectivas.
+     '
      />
     </div>
   </div>
