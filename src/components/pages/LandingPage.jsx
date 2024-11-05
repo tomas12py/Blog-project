@@ -1,14 +1,17 @@
-import { Navbar } from '../common/Navbar'
 import { TextCard } from '../common/TextCard'
+import { Navbar } from '../common/Navbar'
+import { AnimateTitle } from '../common/AnimateTitle'
 import '../../styles/app.css'
 
 
 export const LandingPage = () => {
+
   return (
     <main>
   <Navbar
   routes={["Login"]}
   />
+  <AnimateTitle/>
   <div className="main-container">
     <div className="cards">
      <TextCard
