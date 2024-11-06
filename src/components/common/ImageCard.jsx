@@ -1,7 +1,6 @@
 
 export const ImageCard = ({title = "",text = "",backgroundImage = ""}) => {
   return (
-    <ul className="cards-img">
   <li className="cards__item">
     <div className="card-img">
       <div className="card__image" style={{backgroundImage}} />
@@ -14,6 +13,5 @@ export const ImageCard = ({title = "",text = "",backgroundImage = ""}) => {
       </div>
     </div>
   </li>
-</ul>
   )
 }
