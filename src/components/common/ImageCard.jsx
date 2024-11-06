@@ -1,5 +1,5 @@
 
-export const ImageCard = ({title = "",text = "",backgroundImage = ""}) => {
+export const ImageCard = ({title = "",text = "",backgroundImage = "",link = ""}) => {
   return (
   <li className="cards__item">
     <div className="card-img">
@@ -9,7 +9,7 @@ export const ImageCard = ({title = "",text = "",backgroundImage = ""}) => {
         <p className="card__text">
          {text}
         </p>
-        <button className="btn btn--block card__btn"><a className = "link-card" href="">Conocer mas</a></button>
+        <button className="btn btn--block card__btn"><a className = "link-card" href={link} target="_blank">Conocer mas</a></button>
       </div>
     </div>
   </li>
