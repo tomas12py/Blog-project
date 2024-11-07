@@ -208,12 +208,12 @@ img {
 }
 .btn {
   background: linear-gradient(to right top, #24b9c7, #00afea, #009eff, #517fff, #c241ec);
-  border: 1px solid #cccccc;
+  border: 1px solid white;
   padding: 0.5rem;
   text-transform:initial;
 }
 .link-card{
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255);
 
 }
 .btn--block {
@@ -330,7 +330,7 @@ img {
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgb(255, 255, 255);
 }
 
 .second-title{
