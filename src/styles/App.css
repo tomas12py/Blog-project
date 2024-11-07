@@ -225,9 +225,9 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   list-style: none;
-  margin: 0;
+  margin: 2rem 0;
   padding: 0;
   justify-content: center;
 }
@@ -331,4 +331,10 @@ img {
   line-height: 1.5;
   margin-bottom: 1.25rem;
   color: rgba(255, 255, 255, 0.9);
+}
+
+.second-title{
+  display: flex;
+  margin-top: 2.2rem;
+  justify-content: center;
 }
