@@ -3,7 +3,7 @@ import { useState } from 'react'
 import '../../styles/app.css'
 
 
-export const Navbar = ({routes = ["Login"]}) => {
+export const Navbar = ({routes = [""]}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -23,7 +23,7 @@ export const Navbar = ({routes = ["Login"]}) => {
         {routes.map((route,index) => (
             <a
               key={index}
-              href="#"
+              href={route}
               className="navLink"
             >
               {route}
