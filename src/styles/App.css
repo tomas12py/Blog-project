@@ -164,6 +164,7 @@ a{
   grid-row: 3/4;
   font-weight: 400;
   color: #ffffff;
+  font-family: 'Gill Sans';
 }
 
 .card__apply {
@@ -322,11 +323,12 @@ img {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
+  font-family: 'Gill Sans';
 }
 .card__text {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
@@ -337,6 +339,7 @@ img {
   display: flex;
   margin-top: 2.2rem;
   justify-content: center;
+  font-family: 'Gill Sans';
 }
 
 

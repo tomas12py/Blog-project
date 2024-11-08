@@ -36,13 +36,13 @@ export const AnimateTitle = () => {
       animate="visible"
     >
       <motion.h1>
-        <motion.span variants={textVariants} style={{marginLeft:"1rem"}} className='gradient-title'>
+        <motion.span variants={textVariants} style={{marginLeft:"1rem",fontFamily:"Gill Sans"}} className='gradient-title'>
           Bienvenido
         </motion.span>
-        <motion.span variants={textVariants} style={{marginLeft:"1rem"}} className='gradient-title'>
+        <motion.span variants={textVariants} style={{marginLeft:"1rem",fontFamily:"Gill Sans"}} className='gradient-title'>
            a 
         </motion.span>
-        <motion.span style={{marginLeft:"1rem"}} className='gradient-title'
+        <motion.span style={{marginLeft:"1rem",fontFamily:"Gill Sans"}} className='gradient-title'
           variants={textVariants}
         >
           your travel
