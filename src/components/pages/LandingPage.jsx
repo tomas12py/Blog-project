@@ -7,7 +7,7 @@ import japanImg from "../../assets/japanImg.jpg"
 import { TextCard } from '../common/TextCard'
 import { Footer } from '../common/Footer'
 import { Navbar } from '../common/Navbar'
-import '../../styles/app.css'
+import '../../styles/initial.css'
 
 
 export const LandingPage = () => {

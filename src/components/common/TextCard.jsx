@@ -1,4 +1,3 @@
-import '../../styles/app.css'
 import { FaCompass } from "react-icons/fa";
 
 export const TextCard = ({background = "",title = "",text = ""}) => {

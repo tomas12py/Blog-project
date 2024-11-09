@@ -395,3 +395,6 @@ img {
     margin: 0 3px;
   }
 }
+
+
+.container { display: flex; flex-direction: column; min-height: 100vh; } .form-container { flex: 1; display: flex; justify-content: center; align-items: center; padding: 20px; /* Ajusta el padding según sea necesario */ }
