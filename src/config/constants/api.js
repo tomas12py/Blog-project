@@ -5,7 +5,8 @@ TIME_OUT: 1000,
 
 ENDPOINTS: {
     INTIAL_ROUTES: {
-        LOGIN: "users"
+        LOGIN: "users",
+        LOGUP: "users"
     }
 }
 }
