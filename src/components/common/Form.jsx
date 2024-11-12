@@ -1,7 +1,7 @@
 
-export const Form = ({children,height = "350px",title = "",marginTop = "",phrase = "",onSubmit}) => {
+export const Form = ({children,background,height = "350px",title = "",marginTop = "",phrase = "",onSubmit}) => {
   return (
-   <form onSubmit = {onSubmit} className="form" style={{height}}>
+   <form onSubmit = {onSubmit} className="form" style={{height,background}}>
   <div className="form-title" style={{marginTop}}>
     <span>{title}</span>
   </div>
@@ -15,9 +15,6 @@ export const Form = ({children,height = "350px",title = "",marginTop = "",phrase
     <span className="star" />
     <span className="star" />
   </section>
-  <button type="submit" className="submit">
-    <span className="sign-text">Sign in</span>
-  </button>
 </form>
   )
 }
