@@ -1,10 +1,11 @@
+/* form */
+
 .form {
   position: relative;
   display: block;
   padding: 2.2rem;
   max-width: 350px;
   width: 320px;
-  background: linear-gradient(to right top, #24b9c7, #00afea, #009eff, #517fff, #c241ec);
   border: 2px solid #fff;
   -webkit-box-shadow: rgba(0,212,255) 0px 0px 50px -15px;
   box-shadow: rgba(0,212,255) 0px 0px 50px -15px;
@@ -12,7 +13,6 @@
   z-index: +1;
 }
 
-/*------input and submit section-------*/
 
 .input-container {
   position: relative;
@@ -108,7 +108,6 @@
   }
 }
 
-/*--------signup section---------*/
 
 .signup-link {
   color: #c0c0c0;
@@ -128,7 +127,6 @@
 }
 
 
-/*--------header section-----------*/
 
 .form-title {
   font-size: 1.25rem;
@@ -205,7 +203,6 @@
   }
 }
 
-/*---------shooting stars-----------*/
 
 
 .bg-stars {
@@ -307,10 +304,37 @@
 }
 
 
+/* spinner */
+
+
+.spinner-container {
+  display: inline-block;
+  margin-right: 2rem;
+  position: relative;
+  margin-bottom: 1.2rem;
+}
+
+.spinner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid;
+  animation: spin 1s linear infinite;
+}
 
 
 
-
+/* Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 
 
