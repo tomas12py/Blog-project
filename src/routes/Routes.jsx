@@ -1,3 +1,4 @@
+import { UserPublications } from '../components/pages/UserPublications'
 import { LandingPage } from '../components/pages/LandingPage'
 import { FormUser } from '../components/pages/FormUser'
 import {Login} from '../components/pages/Login'
@@ -8,6 +9,7 @@ export const ProjectRoutes = () => {
         <Route path = "/" element = {<LandingPage/>}></Route>
         <Route path = "/create-user" element = {<FormUser/>}></Route>
         <Route path = "/login" element = {<Login/>}></Route>
+        <Route path='/publications' element = {<UserPublications/>}></Route>
         </Routes> 
   ) 
 }

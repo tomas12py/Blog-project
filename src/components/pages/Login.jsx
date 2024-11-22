@@ -34,7 +34,7 @@ export const Login = () => {
           const users = response.data
           const user = users.find(user => user.email === formData.email && user.password === formData.password)
           if (user){
-            navigate("/")
+            navigate("/publications")
           }
           setErrorMessage("error")
           
