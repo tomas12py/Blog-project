@@ -59,7 +59,7 @@ export const FormPublication = () => {
   }
     <div className="container"> 
     <div className="form-container">
-   <Form height = "400px" title="Crea tu usuario" phrase="Your travel" marginTop="1.2rem" onSubmit={handleSubmit} background="linear-gradient(to right top, #24b9c7, #00afea, #009eff, #517fff, #c241ec)">
+   <Form height = "400px" title="Crea una publicacion" phrase="Your travel" marginTop="1.2rem" onSubmit={handleSubmit} background="linear-gradient(to right top, #24b9c7, #00afea, #009eff, #517fff, #c241ec)">
     <InputForm
     placeholder="Nombre de la publicacion"
     type="text"
