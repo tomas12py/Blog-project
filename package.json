@@ -1,6 +1,7 @@
 {
   "name": "blog-project",
   "private": true,
+  "homepage": "https://tomas12py.github.io/Blog-project",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
