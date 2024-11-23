@@ -1,12 +1,13 @@
 import { IoLocationOutline } from "react-icons/io5";
 import { PiShootingStarThin } from "react-icons/pi";
 import { MdOutlineReviews } from "react-icons/md";
-import { CiClock2 } from "react-icons/ci";
 import { API } from "../../config/constants/api";
-import { useEffect,useState } from "react";
+import { CiClock2 } from "react-icons/ci";
 import { axiosInstance } from "../../config/axios";
-import Modal from 'react-modal';
+import { useEffect,useState } from "react";
 import { InputForm } from "./InputForm";
+import Modal from 'react-modal';
+
 Modal.setAppElement('#root'); 
 
 export const CardTravel = () => {
@@ -79,7 +80,7 @@ export const CardTravel = () => {
       <>
         {data.map((item) => (
           <div className="travel" key={item.id}>
-            <div className="card-title-travel">{item.name}</div>
+            <div className="card-title-travel gradient-title">{item.name}</div>
             <div className="card-content-travel">
               <IoLocationOutline className="card-icon-travel" />
               <div className="card-text-travel">{item.location}</div>
