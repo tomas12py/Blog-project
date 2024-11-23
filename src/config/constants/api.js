@@ -7,6 +7,12 @@ ENDPOINTS: {
     INTIAL_ROUTES: {
         LOGIN: "users",
         LOGUP: "users"
+    },
+
+    PRIVATE_ROUTES: {
+        CREATE_TRAVEL: "blogs",
+        DELETE_TRAVEL: "blogs"
     }
+
 }
 }
