@@ -8,7 +8,7 @@ export const Footer = () => {
 <footer className="footer">
     <h3 className="footer-phrase">Redes sociales y contactos</h3>
     <div className="social-icons">
-      <a
+      <a 
         href="https://www.facebook.com"
         target="_blank"
         className="social-icon"

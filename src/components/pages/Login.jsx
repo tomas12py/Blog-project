@@ -53,7 +53,7 @@ export const Login = () => {
       <>
      
       <Navbar
-      routes={{Logup:"/create-user",Login:"/login"}}
+      routes={{Logup:"/create-user",Login:"/login",Inicio:"/"}}
       />
       <div className="container"> 
       <div className="form-container">

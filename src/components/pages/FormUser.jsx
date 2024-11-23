@@ -44,7 +44,7 @@ export const FormUser = () => {
     <>
    
     <Navbar
-    routes={{Logup:"/create-user",Login:"/login"}}
+    routes={{Logup:"/create-user",Login:"/login",Inicio:"/"}}
     />
      {noti ? 
     <Toast

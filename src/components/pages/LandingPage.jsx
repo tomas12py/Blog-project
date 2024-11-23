@@ -15,7 +15,7 @@ export const LandingPage = () => {
   return (
     <main>
   <Navbar
-  routes={["Login"]}
+  routes={{Logup:"/create-user",Login:"/login"}}
   />
   <AnimateTitle/>
   <div className="main-container">

@@ -8,7 +8,7 @@ import "../../styles/style.css"
 export const UserPublications = () => {
   return (
     <>
-      <Navbar routes={{Viajes:"/publications","Crea una publicacion":"/create-publication"}}/>
+      <Navbar routes={{Viajes:"/publications","Crea una publicacion":"/create-publication",Inicio:"/"}}/>
       <h1 className="gradient-title title-publication">Disfruta de las publicaciones sobre diferentes viajes</h1>
       <div className="container">
         <div className="container-card-travel">

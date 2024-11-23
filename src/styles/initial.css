@@ -93,7 +93,8 @@ a {
   }
 
   .navLink:hover {
-    background-color: #444;
+    background:linear-gradient(to right top, #24b9c7, #00afea, #009eff, #517fff, #c241ec);
+    transform: scale(1.2);
   }
 
 
@@ -402,9 +403,7 @@ img {
   font-size: 1.5em;
 }
 
-.social-icon:hover {
-  color: #ff4d00;
-}
+
 
 @media (max-width: 768px) {
   .footer-phrase {
