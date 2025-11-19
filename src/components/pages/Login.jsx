@@ -57,7 +57,7 @@ export const Login = () => {
       />
       <div className="container"> 
       <div className="form-container">
-     <Form title="Crea tu usuario" phrase="Your travel" marginTop="1.2rem" onSubmit={handleSubmit} background="linear-gradient(to right top, #24b9c7, #00afea, #009eff, #517fff, #c241ec)">
+     <Form title="Inicia sesión" phrase="Your travel" marginTop="1.2rem" onSubmit={handleSubmit} background="linear-gradient(to right top, #24b9c7, #00afea, #009eff, #517fff, #c241ec)">
       <InputForm
       placeholder = "Ingresa tu email"
       type="email"
