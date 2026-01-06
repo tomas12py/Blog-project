@@ -17,8 +17,22 @@ Este proyecto tiene como concepto la creación de viajes para la búsqueda de di
 ## Arquitectura
 <img width="200" height="350" alt="Captura de pantalla 2025-11-19 220909" src="https://github.com/user-attachments/assets/57cc458d-5d18-41f4-82b8-7390eb491b9a" />
 
+<br>
+<br>
+
+## Como inicializar el proyecto
+
+Instala las dependecias de npm usando este comando:
+
+`npm install`
 
 
+Corre el proyecto en el entorno de desarrollo con este comando:
+
+`npm run dev`
+
+
+<br>
 
 ## Funcionalidades de la aplicación
 
